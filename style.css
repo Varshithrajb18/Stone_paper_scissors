@@ -35,7 +35,7 @@
 }
 .rock
 {
-    background-image: url(rock.png);
+    background-image: url(images/rock.png);
     background-size: cover;
     background-position-x: -52px;
     object-position: center;
@@ -46,7 +46,7 @@
 .paper
 {
     background-position-x: -55px;
-    background-image: url(paper.png);
+    background-image: url(images/paper.png);
     background-size: cover;
     object-position: center;
     display: flex;
@@ -56,7 +56,7 @@
 .scissors
 {
     background-position-x: -55px;
-    background-image: url(scissors.png);
+    background-image: url(images/scissors.png);
     background-size: cover;
     object-position: center;
     display: flex;
