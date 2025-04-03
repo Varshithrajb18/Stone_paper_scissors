@@ -1,0 +1,102 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.head
+{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #383d3b;
+    color: #eee5e9;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.0rem;
+}
+.c
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+}
+.hero
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.rock
+{
+    background-image: url(rock.png);
+    background-size: cover;
+    background-position-x: -52px;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paper
+{
+    background-position-x: -55px;
+    background-image: url(paper.png);
+    background-size: cover;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scissors
+{
+    background-position-x: -55px;
+    background-image: url(scissors.png);
+    background-size: cover;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score
+{
+    margin-top: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+.v
+{
+    text-align: center;
+}
+.res
+{
+    margin-top: 4rem;
+    height: 70px;
+    width: 350px;
+    background-color: #52dee5;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.result
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
